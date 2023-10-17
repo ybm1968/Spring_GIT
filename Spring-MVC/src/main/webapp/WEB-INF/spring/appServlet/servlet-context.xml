@@ -31,6 +31,7 @@
 	<!-- ✅ 업로드 경로 빈 등록 -->
 	<beans:bean id="uploadPath" class="java.lang.String">
 		<beans:constructor-arg value="D:\lsm\UPLOAD">
+		<!-- <beans:constructor-arg value="C:\Users\임성민\Desktop\tjn\UPLOAD"> -->
 		</beans:constructor-arg>
 	</beans:bean>
 	

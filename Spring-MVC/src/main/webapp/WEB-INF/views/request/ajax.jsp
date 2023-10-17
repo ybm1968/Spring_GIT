@@ -70,6 +70,7 @@
            formData.append('file', files[i])
        }
 
+       // let url = 'http://localhost:8080/test/request/ajax'
        let url = 'http://localhost:9090/test/request/ajax'
        $.ajax({
            url             :   url,
